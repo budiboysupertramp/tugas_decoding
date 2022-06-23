@@ -1,0 +1,365 @@
+
+.mobile_menu{
+    display: none;
+    /* display: flex; */
+    /* flex-direction: column;
+    position: fixed;
+    background: orange;
+   gap: 20px;
+   top: 0;
+   width: 100%;
+   padding: 10%;
+   right: 0;
+   transition-duration: .5s;
+   transform: translateX(400px) */
+}
+
+
+@media only screen and (max-width : 600px){
+   
+
+    .header .navbar{
+        height: 100px;
+        background: linear-gradient(to bottom left, #ffccff 0%, #3399ff 83%);
+    }
+
+    .navbar {
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        position: fixed;
+       justify-content: space-between;
+       
+    }
+
+    .navbar ,.header-title{
+      /* margin-top: -10px; */
+    }
+
+    /* toogle */
+    #toggle-button {
+        /* transform: translateY(50%); */
+        display: flex !important
+    }
+
+    ul.menu-nav {
+        display: none;
+    }
+
+    .mobile_menu{
+        display: flex;
+        height: 250px;
+        background-color: rgb(222, 222, 235);
+        position: fixed;
+        padding: 20px;
+        line-height: 2;
+        gap: 20px;
+        top: 100px;
+        width: 100%;
+        text-align: center;
+        border-radius: 0 0 20px 20px;
+        flex-direction: column;
+        /* z-index: 100; */
+        background-image: url("https://picsum.photos/seed/28/800");
+        transform: translateY(-350px); 
+        
+
+
+    }
+
+    .mobile_menu_item{
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .mobile_menu_item:hover{
+        color: blue;
+    }
+
+  
+
+    .title-name{
+        padding: 5% 0;
+        /* margin-top: 20%; */
+      
+    }
+
+    .title-name .name-camp {
+        padding: 50% 0 0 0;
+    }
+    section {
+        padding: 50px 5%;
+        
+    }
+    .about {
+        margin-top: 50px;
+        padding: 40px 0;
+        display: flex;
+        background-color: rgb(247, 247, 247);
+        border-radius: 50px;
+        width: 100%;
+       
+    }
+
+    .article-about{
+        
+      width: 100%;
+        
+    }
+    
+    .article-about p.article-name {
+        padding: 0 20px;
+        text-align: left;
+        /* display: flex; */
+        width: 70%;
+        font-size: 1.5rem;
+    
+    }
+
+    .card {
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .roam {
+        padding: 40px 20px;
+        width: 100%;
+        border-radius: 50px;
+      margin-bottom: 50px;
+       
+    }
+    
+    h1.title-roam{
+        font-size: 1.5rem;
+        padding: 5% 0 0 10%;
+    }
+    .content-roam {
+        width: 100%;
+        /* min-height: auto; */
+      
+       
+        /* text-align: center; */
+    }
+
+     h2.title-content-roam  {
+        padding: 0 5px;
+        font-size: 1rem;
+        /* margin-top: -5px; */
+        
+    }
+    p.article-roam {
+        padding: 0 5px;
+        font-size: 1rem;
+        text-align:left;
+    }
+
+    .activity {
+        width: 100%;
+        padding: 40px 20px;
+        background-color: rgb(247, 247, 247);
+        border-radius: 50px;
+        /* text-align: center; */
+    
+    }
+
+    .article p.article-activity {
+        font-size: 1.5rem;
+        width: 80%;
+        padding: 35px;
+        text-align: left;
+        padding: 30px 20px;
+        
+        /* width: 100%; */
+     
+        
+    }
+
+
+
+    .card-activity{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+       
+    }
+
+    .card-activity .card-body-activity{
+        width: 300px;
+        border-radius: 20px;
+       
+    }
+
+    .card-body-activity img {
+        border-radius: 20px;
+    }
+
+    .organization {
+        display: flex;
+        width: 100%;
+        
+       
+
+
+    }
+    .left-organization{
+        /* display: block; */
+
+        
+    }
+
+    .left-organization h1.left-title{
+    margin-top: 5px;
+
+    }
+    .left-organization .article-organization{
+        margin-top: -30px;
+        /* display: flex; */
+    }
+
+    
+    .right-organization {
+        /* width: 100%; */
+        overflow-x: hidden;
+    }
+ 
+    .mybiodata {
+        /* width: 100%; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aside-biodata {
+     width: 50%;
+     display: flex;
+    
+      
+    }
+    .aside-biodata .img-biodata {
+       margin: auto;
+    
+       align-items: center;
+       justify-content: center;
+       display: flex;
+     
+    }
+
+    .left-bio .img-biodata {
+        width: 100%;
+    }
+
+    .right-bio {
+        padding: 0 5px;
+        text-align: left;
+        line-height: 3;
+        text-transform: capitalize;
+        flex-direction: column;
+        /* overflow-x: hidden; */
+        width: 100%;
+        /* display: flex; */
+        position: absolute;
+    
+    }
+
+    .right-bio .title-bio{
+        margin-top: 20px;
+        margin-left: 10px;
+        
+    }
+
+    .right-bio, table{
+        color: black;
+        padding: 10%;
+        
+      
+    }
+
+    
+    .maps {
+        background-color: rgb(247, 247, 247);
+        border-radius: 50px;
+        /* position: absolute; */
+    
+    }
+    .maps h1 {
+        margin-top: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .maps iframe{
+       width: 90%;
+       border-radius: 5%;
+     
+
+    }
+
+    .footer {
+  
+    display: flex;
+   
+    }
+
+
+    .left-footer  {
+        width: 100%;
+       
+    }
+
+     .article-footer{
+    
+        align-items: center;
+        justify-items: center;
+        position: absolute;
+        margin: 0 5%;
+
+    }
+    .title-footer{
+        padding: 0 20px;
+     
+    }
+
+
+    .right-footer {
+      display: flex;
+      float: left;
+    }
+
+    .link-footer{
+        padding: 0 10%;
+    }
+
+ .title-link{
+    margin-top: 280%;
+    text-align: center;
+    /* color: black; */
+ }
+
+  
+
+    .right-footer-end  {
+        display: flex;
+ 
+    }
+
+    .link-footer-end {
+        margin: -75% 0 0 20%;
+        padding: 15% 10%;
+        
+    }
+    .title-link{
+     font-size: 1.5rem;
+
+          
+    }
+
+    .list-link {
+     /* padding: 0 5%; */
+    }
+
+   
+}
