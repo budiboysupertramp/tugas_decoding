@@ -11,13 +11,12 @@ const showMobileMenu = () => {
         mobileMenu.style.transform ="translateY(0)";
     
         
-       // mobileMenu.style.opacity = "1";
+      
         show = false
 
     } else {
         mobileMenu.style.transform = "translateY(-350px)";
-        // mobileMenu.style.opacity = "1";
-
+     
         show = true 
     }
 }

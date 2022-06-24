@@ -448,9 +448,9 @@ iframe{
 }
 
 .right-footer {
-
-  position: relative;
-  margin-top: -12%;
+    
+  /* position: relative; */
+  margin-top: -16%;
 
 }
 
@@ -467,7 +467,7 @@ iframe{
 }
 
 .right-footer-end{
-    margin: -12% 0 0 25%;
+    margin: -15% 0 0 25%;
     
    
 }
