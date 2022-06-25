@@ -8,6 +8,9 @@ html {
     box-sizing: border-box;
 }
 
+
+
+
 body {
     width: 100vw;
     height: auto;
@@ -131,6 +134,7 @@ section {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 
@@ -352,20 +356,16 @@ section.about {
 }
 
 .aside-biodata {
-    /* background-color: #063E54; */
-    width: 60%;
     margin:  auto;
     color: #F9F9FB;
-    height: 400px;
     margin-top: 50px;
-    display: block;
-    /* margin-bottom:50px; */
+    display: flex;
+    
 
 }
 
  .img-biodata {
-    float: left;
-    width:50%;
+    /* float: left; */
     height: 400px;
     padding: 0 20px 0 0;
     margin-bottom: 90px;
@@ -377,9 +377,8 @@ section.about {
     color: black;
     line-height: 2;
     text-transform: capitalize;
-    /* margin-top: -0px; */
-    float: right;
-    position: relative;
+    /* float: right; */
+    /* position: relative; */
     /* width: 100%; */
     
 
@@ -423,23 +422,23 @@ iframe{
     border-radius: 40px 40px 0 0;
     text-transform: capitalize; 
     color: #F9F9FB;
-    position: relative;
-    padding: 2% 0 10% 0;
-    
-
-   
- 
+    /* position: relative; */
+    /* padding: 2% 0 10% 0; */
+    display: flex;
+    flex-direction: row;
 }
 
 .left-footer {
     text-align: left;
-     padding: 0 5%;
+     /* padding: 0 5%; */
+     margin-top: -20px;
      width: 40%;
 
 }
 
 .title-footer {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
     
 }
 
@@ -447,10 +446,15 @@ iframe{
     line-height: 2;
 }
 
+.footer-links {
+    width: 40%;
+    display: flex;
+}
+
 .right-footer {
-    
+    width: 50%;
   /* position: relative; */
-  margin-top: -16%;
+  /* margin-top: -16%; */
 
 }
 
@@ -467,7 +471,8 @@ iframe{
 }
 
 .right-footer-end{
-    margin: -15% 0 0 25%;
+    /* margin: -15% 0 0 25%; */
+    width: 50%;
     
    
 }
@@ -480,14 +485,23 @@ iframe{
     display: flex;
 }
 
+
+.wa-footer{
+    width: 20%;
+    margin-top: 2%;
+}
 .button-wa {
-    /* position: relative; */
-    /* float: right; */
+  
+   padding: 10% 20%;
+   border-radius: 20px;
+   background-color: #FFB905;
+   color: black;
+   font-weight: bold;
+   font-size: 1.5rem;
+  
 }
 
-.btn-wa {
-    /* display: flex; */
-}
+
 
 
 /* end section footer */

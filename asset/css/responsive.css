@@ -19,6 +19,7 @@
    
 
     .header .navbar{
+        z-index: 1000;
         height: 100px;
         background: linear-gradient(to bottom left, #ffccff 0%, #3399ff 83%);
     }
@@ -28,7 +29,7 @@
         display: flex;
         align-items: center;
         position: fixed;
-       justify-content: space-between;
+        justify-content: space-between;
        
     }
 
@@ -57,9 +58,10 @@
         top: 100px;
         width: 100%;
         text-align: center;
+        /* opacity: 0; */
+        transition-duration: 0.5s;
         border-radius: 0 0 20px 20px;
         flex-direction: column;
-        /* z-index: 100; */
         background-image: url("https://picsum.photos/seed/28/800");
         transform: translateY(-350px); 
         
@@ -88,8 +90,9 @@
     .title-name .name-camp {
         padding: 50% 0 0 0;
     }
+
     section {
-        padding: 50px 5%;
+        padding: 0;
         
     }
     .about {
@@ -126,7 +129,8 @@
         padding: 40px 20px;
         width: 100%;
         border-radius: 50px;
-      margin-bottom: 50px;
+        margin-bottom: 50px;
+        overflow-x: hidden;
        
     }
     
@@ -144,13 +148,13 @@
 
      h2.title-content-roam  {
         padding: 0 5px;
-        font-size: 1rem;
+        font-size: 1.2rem;
         /* margin-top: -5px; */
         
     }
     p.article-roam {
         padding: 0 5px;
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-align:left;
     }
 
@@ -199,9 +203,8 @@
         width: 100%;
         
        
-
-
     }
+
     .left-organization{
         /* display: block; */
 
@@ -214,6 +217,7 @@
     }
     .left-organization .article-organization{
         margin-top: -30px;
+       
         /* display: flex; */
     }
 
@@ -232,8 +236,9 @@
     }
 
     .aside-biodata {
-     width: 50%;
+     /* width: 50%; */
      display: flex;
+     flex-direction: column;
     
       
     }
@@ -258,8 +263,7 @@
         flex-direction: column;
         /* overflow-x: hidden; */
         width: 100%;
-        /* display: flex; */
-        position: absolute;
+       
     
     }
 
@@ -280,11 +284,12 @@
     .maps {
         background-color: rgb(247, 247, 247);
         border-radius: 50px;
+
         /* position: absolute; */
     
     }
     .maps h1 {
-        margin-top: 300px;
+        /* margin-top: 300px; */
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -298,67 +303,88 @@
 
     }
 
-    .footer {
+    section.footer {
   
-    display: flex;
+        display: flex;
+        /* margin-bottom: 50px; */
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
    
     }
 
 
-    .left-footer  {
+    section.footer .left-footer  {
         width: 100%;
+        text-align: center;
+       align-items: center;
        
     }
 
+    section.footer .footer-links {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
      .article-footer{
-    
-        align-items: center;
+        width: 100%;
+        text-align: center;
+        
+        /* align-items: center;
         justify-items: center;
         position: absolute;
-        margin: 0 5%;
+        margin: 0 5%; */
+
 
     }
     .title-footer{
-        padding: 0 20px;
+        /* padding: 0 20px; */
      
     }
 
 
-    .right-footer {
-      display: flex;
-      float: left;
+    section.footer .right-footer {
+      /* display: flex;
+      float: left; */
+      width: 100%;
     }
 
     .link-footer{
-        padding: 0 10%;
+        /* padding: 0 10%; */
     }
 
  .title-link{
-    margin-top: 280%;
-    text-align: center;
+    /* margin-top: 280%; */
+    /* text-align: center; */
     /* color: black; */
  }
 
   
 
-    .right-footer-end  {
-        display: flex;
- 
+    section.footer .right-footer-end  {
+        /* display: flex; */
+        width: 100%;
     }
 
     .link-footer-end {
-        margin: -75% 0 0 20%;
-        padding: 15% 10%;
+        /* margin: -66% 0 0 20%;
+        padding: 15% 10%; */
         
     }
     .title-link{
-     font-size: 1.5rem;
+     /* font-size: 1.5rem; */
 
           
     }
 
     .list-link {
      /* padding: 0 5%; */
+    }
+
+    section.footer .wa-footer  {
+        /* display: flex; */
+        width: 100%;
     }
 
    
