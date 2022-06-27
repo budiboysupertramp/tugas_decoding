@@ -1,3 +1,5 @@
+// membuat mobile menu
+
 let show = true
 console.log(show);
 
@@ -20,3 +22,26 @@ const showMobileMenu = () => {
         show = true 
     }
 }
+// end mobile menu
+
+
+
+// membuat scroll
+
+const scrollToHome = () => {
+    var sectionName =document.getElementById('myHome');
+    sectionName.scrollIntoView ({
+        behavior: "smooth",
+        offsetTop : 20
+    })
+}
+
+const scrollToAbout = () => {
+    var sectionName = document.getElementById("myAbout")
+    sectionName.scrollIntoView ({
+        behavior : "smooth",
+        offsetTop : 20
+    })
+}
+
+// end membuat scroll
