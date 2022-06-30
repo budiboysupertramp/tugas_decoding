@@ -191,6 +191,15 @@ section.about {
     
 }
 
+.card .card-body:hover{
+    background-image:  linear-gradient(to right, rgba(14, 216, 238, 0.926), rgba(26, 148, 230, 0.8))  ;
+    transition-duration: 1.5s;
+    /* transform: scale(1.1); */
+    /* margin: 0.8%; */
+    
+    
+}
+
  .img-about {
     width: 250px;
     border-radius: 200px;

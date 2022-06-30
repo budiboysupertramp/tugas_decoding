@@ -38,10 +38,22 @@ const scrollToHome = () => {
 
 const scrollToAbout = () => {
     var sectionName = document.getElementById("myAbout")
+    console.log("test")
     sectionName.scrollIntoView ({
+      
         behavior : "smooth",
         offsetTop : 20
     })
 }
 
 // end membuat scroll
+
+
+// cara unuk delay 
+// setTimeout(myFunction, 4000);
+
+// function myFunction() {
+//   document.getElementById("name-camp").innerHTML = "Moendoe";
+// }
+
+// cara unruk delay 

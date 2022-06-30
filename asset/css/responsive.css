@@ -125,7 +125,16 @@
         flex-direction: column;
         display: flex;
     }
-    
+
+    /* .card .card-body:hover{
+        background-image:  linear-gradient(to right, rgba(14, 216, 238, 0.926), rgba(26, 148, 230, 0.8))  ;
+        transition-duration: 1s;
+        transform: scale(1.1);
+        margin:5% 3%;
+        
+        
+    }
+     */
     .roam {
         padding: 40px 20px;
         width: 100%;
