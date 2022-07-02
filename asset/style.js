@@ -1,7 +1,7 @@
 // membuat mobile menu
 
 let show = true
-console.log(show);
+// console.log(show);
 
 // console.log(show);
 
@@ -41,6 +41,14 @@ const scrollToAbout = () => {
     console.log("test")
     sectionName.scrollIntoView ({
       
+        behavior : "smooth"
+        // offsetTop : 20
+    })
+}
+
+const scrollToContact = () => {
+    var sectionName = document.getElementById("myContact")
+    sectionName.scrollIntoView ({
         behavior : "smooth",
         offsetTop : 20
     })

@@ -25,17 +25,17 @@
                 </div>
             </div>
             <ul class="menu-nav">
-                <li class="list-nav">
-                    <a href="#">home</a>
+                <li class="list-nav" onclick="scrollToHome()">
+                    <a>home</a>
                 </li>
-                <li class="list-nav" >
-                    <a href="#" >about</a>
+                <li class="list-nav" onclick="scrollToAbout()">
+                    <a>about</a>
                 </li>
-                <li class="list-nav">
-                    <a href="#">article</a>
+                <li class="list-nav" onclick="scrollToHome()">
+                    <a>article</a>
                 </li>
-                <li class="list-nav">
-                    <a href="#">kontak</a>
+                <li class="list-nav" onclick="scrollToHome()">
+                    <a>kontak</a>
                 </li>
             </ul>
         </nav>
@@ -50,16 +50,16 @@
 
     <div class="mobile_menu" id="mobile_menu">
         <div class="mobile_menu_item" onclick="scrollToHome()">
-            <a href="#">Home</a>
+           <a>Home</a> 
         </div>
         <div class="mobile_menu_item"   onclick="scrollToAbout()">
-            <a href="#">About</a>
+           <a>About</a> 
         </div>
         <div class="mobile_menu_item" onclick="scrollToContact()">
-            <a href="#">Contact</a>
+            <a>Contact</a>   
         </div>
         <div class="mobile_menu_item" onclick="scrollToGallery()">
-            <a href="#">Gallery</a>
+           <a>Gallery</a>     
         </div>
     </div>
     
@@ -218,20 +218,23 @@
                             <div class="right-bio">
                                 <h2 class="title-bio">sekilas info</h2>
                            
-                                <table border="1" cellpadding="1" class="table-biodata">
-                                  <tr>
-                                      <td> nama :</td>
+                                <table  class="table-biodata">
+                                    <!-- <tr> -->
+                                        <th >No</th>
+                                        <th width="30%">nama</th>
+                                        <th>alamat</th>
+                                        <th>hobi</th>
+                                    <!-- </tr> -->
+
+                                  <tr >
+                                      <!-- <td> nama :</td> -->
+                                      <td class="nomor" >1</td>
                                       <td>setiabudi</td>
-                                  </tr>
-                                  <tr>
-                                      <td> alamat :</td>
                                       <td>jalan mundu, jakarta timur</td>
-                                  </tr>
-                                  <tr>
-                                      <td> hobi :</td>
                                       <td>ngoding,watching movie and hiking</td>
                                   </tr>
-       
+                              
+                               
                                 </table>
                             </div>
                        

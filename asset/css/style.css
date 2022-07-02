@@ -57,7 +57,15 @@ a {
 
 .list-nav, a {  
     padding: 20px;
+}
+
+.list-nav a {  
     text-decoration: none;
+    cursor: pointer;
+}
+
+.list-nav:hover > a {  
+    color: #FFB905;
 
 }
 
@@ -386,11 +394,39 @@ section.about {
     color: black;
     line-height: 2;
     text-transform: capitalize;
-    /* float: right; */
-    /* position: relative; */
-    /* width: 100%; */
+}
+
+.table-biodata{
+    border-collapse: collapse;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
     
 
+  
+   
+}
+
+  .table-biodata th{
+    background-color: aqua;
+    font-size: 0.8rem;
+    /* border: none; */
+    border: 1px solid aqua;
+    /* border: 1px solid  rgba(196, 196, 196, 0.8); */
+    /* outline-offset: -1px; */
+}
+
+td.nomor {
+    background: rgba(196, 196, 196, 0.45);
+}
+
+.table-biodata td {
+    padding: 2% ;
+    font-size: 0.8rem;
+    border: 1px solid rgba(196, 196, 196, 0.8);
+    
+    
+   
 }
 
 
