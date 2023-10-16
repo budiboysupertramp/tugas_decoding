@@ -32,10 +32,10 @@ const showMobileMenu = () => {
 // membuat scroll
 
 const scrollToHome = () => {
-  var sectionName = document.getElementById("myHome");
+  var sectionName = document.getElementById("header");
   sectionName.scrollIntoView({
     behavior: "smooth",
-    offsetTop: 20,
+    // offsetTop: 20,
     offsetTop: 0,
   });
 };
