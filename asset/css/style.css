@@ -358,6 +358,14 @@ section.about {
 
 }
 
+.bars span{
+    font-size: 32px;
+}
+
+.list-nav.active {
+    border-bottom: 2px solid red;
+    font-size: 700;
+}
 
 /* end section organization */
 

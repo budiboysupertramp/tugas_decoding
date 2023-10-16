@@ -16,29 +16,40 @@
         <!-- <img src="./asset/img/hero.png" alt="" srcset="" class="img-header"> -->
         <nav class="navbar" id="myHome">
             <h1 class="header-title">Moendoe</h1>
-            <div href="" id="toggle-button" >
-                <div class="bars" onclick="showMobileMenu()">
+            <div href="" id="toggle-button" onclick="showMobileMenu()">
+                <div class="bars" >
+                     <span>&#9776;</span>
+                    <!-- <span>&#9776;</span> -->
+                    <!-- <span class="bar"></span>
                     <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+                    <span class="bar"></span> -->
                     <!-- <span class="bar"></span> -->
                 </div>
+                <div class="bars" >
+                   <!-- <span>X</span> -->
+                </div>
             </div>
-            <ul class="menu-nav">
-                <li class="list-nav" onclick="scrollToHome()">
-                    <a>home</a>
+            <ul class="menu-nav" id="menu-nav">
+                <li class="list-nav" onclick="scrollToHome(this)">
+                    home
+                    <!-- <a class="nav-click">home</a> -->
                 </li>
-                <li class="list-nav" onclick="scrollToAbout()">
-                    <a>about</a>
+                <li class="list-nav" onclick="scrollToAbout(this)">
+                    about
+                    <!-- <a class="nav-click">about</a> -->
                 </li>
-                <li class="list-nav" onclick="scrollToActivity()">
-                    <a>Activity</a>
+                <li class="list-nav" onclick="scrollToActivity(this)">
+                    Activity
+                    <!-- Activity
+                    <a class="nav-click">Activity</a> -->
                 </li>
-                <li class="list-nav" onclick="scrollTomyBiodata()">
-                    <a>My Biodata</a>
+                <li class="list-nav" onclick="scrollTomyBiodata(this)">
+                    My Biodata
+                    <!-- <a class="nav-click">My Biodata</a> -->
                 </li>
-                <li class="list-nav" onclick="scrollToContact()">
-                    <a>kontak</a>
+                <li class="list-nav" onclick="scrollToContact(this)">
+                    kontak
+                    <!-- <a class="nav-click">kontak</a> -->
                 </li>
             </ul>
         </nav>
@@ -53,7 +64,7 @@
 
     <!-- mobile menu -->
 
-    <div class="mobile_menu" id="mobile_menu">
+    <!-- <div class="mobile_menu" id="mobile_menu">
         <div class="mobile_menu_item" onclick="scrollToHome()">
            <a>Home</a> 
         </div>
@@ -69,7 +80,7 @@
         <div class="mobile_menu_item" onclick="scrollToContact()">
             <a>Contact</a>
         </div>
-    </div>
+    </div> -->
     
     <!-- MOBILE MENU -->
 
