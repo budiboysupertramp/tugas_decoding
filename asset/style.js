@@ -18,7 +18,7 @@ const showMobileMenu = () => {
 
     } else {
         mobileMenu.style.transform = "translateY(-350px)";
-        // mobileMenu.style.opacity = 0
+        // mobileMenu.style.opacity = 
         show = true 
     }
 }
@@ -30,10 +30,11 @@ const showMobileMenu = () => {
 
 const scrollToHome = () => {
     var sectionName =document.getElementById('myHome');
-    sectionName.scrollIntoView ({
-        behavior: "smooth",
-        offsetTop : 20
-    })
+    sectionName.scrollIntoView({
+      behavior: "smooth",
+      offsetTop: 20,
+      offsetTop: 0,
+    });
 }
 
 const scrollToAbout = () => {
@@ -41,8 +42,26 @@ const scrollToAbout = () => {
     console.log("test")
     sectionName.scrollIntoView ({
       
-        behavior : "smooth"
-        // offsetTop : 20
+        behavior : "smooth",
+        offsetTop : 50
+    })
+}
+
+const scrollToActivity = () => {
+    var sectionName = document.getElementById("myActivity")
+
+    sectionName.scrollIntoView ({
+        behavior : "smooth",
+        offsetTop : 50
+    })
+}
+
+const scrollTomyBiodata = () => {
+    var sectionName = document.getElementById("myBiodata")
+
+    sectionName.scrollIntoView ({
+        behavior : "smooth",
+        offsetTop: 20
     })
 }
 
@@ -53,6 +72,8 @@ const scrollToContact = () => {
         offsetTop : 20
     })
 }
+
+
 
 // end membuat scroll
 
@@ -65,3 +86,8 @@ const scrollToContact = () => {
 // }
 
 // cara unruk delay 
+
+const btnTop = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

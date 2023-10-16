@@ -125,7 +125,9 @@ a {
     height: 100vh;
     border-radius: 0 0 30px 30px;
     background-image: url("../img/hero.png");
-    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -138,7 +140,7 @@ a {
 /* end section header */
 
 section {
-    padding: 50px 10%;
+    padding: 50px 10% 0px 10%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -223,7 +225,7 @@ section.about {
 
 .roam, .img-roam {
     background-image: url("../img/drible.png");
-    height: 60vh;
+    /* height: 60vh; */
 
 }
 
@@ -423,13 +425,9 @@ td.nomor {
 .table-biodata td {
     padding: 2% ;
     font-size: 0.8rem;
-    border: 1px solid rgba(196, 196, 196, 0.8);
+    /* border: 1px solid rgba(196, 196, 196, 0.8); */
     
-    
-   
 }
-
-
 
 .title-bio {
     width: 100%;
@@ -444,7 +442,7 @@ td.nomor {
 /* section maps */
 
 .maps {
-    margin-top: -90px;
+    margin-top: -20px;
     text-align: center;
     text-transform: capitalize;
     align-items: center;
@@ -471,6 +469,8 @@ iframe{
     /* padding: 2% 0 10% 0; */
     display: flex;
     flex-direction: row;
+    position: absolute;
+    /* bottom: 0; */
 }
 
 .left-footer {
@@ -478,6 +478,7 @@ iframe{
      /* padding: 0 5%; */
      margin-top: -20px;
      width: 40%;
+     /* background-color: #FFB905; */
 
 }
 
@@ -518,6 +519,7 @@ iframe{
 .right-footer-end{
     /* margin: -15% 0 0 25%; */
     width: 50%;
+    /* background-color: #FFB905; */
     
    
 }
@@ -551,6 +553,27 @@ iframe{
 
 /* end section footer */
 
+
+/* btn otp */
+
+.boxBtnTop{
+    position: relative;
+}
+
+button.btnTop{
+    position: fixed;
+    /* top: 590px; */
+    bottom: 30px;
+    z-index: 999999;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: aqua;
+}
+/* end btn otp */
 
 
 

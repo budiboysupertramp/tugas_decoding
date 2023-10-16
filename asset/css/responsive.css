@@ -2,7 +2,7 @@
 .mobile_menu{
     display: none;
     /* display: flex; */
-    /* flex-direction: column;
+    flex-direction: column;
     position: fixed;
     background: orange;
    gap: 20px;
@@ -11,7 +11,7 @@
    padding: 10%;
    right: 0;
    transition-duration: .5s;
-   transform: translateX(400px) */
+   transform: translateX(400px)
 }
 
 
@@ -49,7 +49,7 @@
 
     .mobile_menu{
         display: flex;
-        height: 250px;
+        /* height: 250px; */
         background-color: rgb(222, 222, 235);
         position: fixed;
         padding: 20px;
@@ -62,9 +62,9 @@
         transition-duration: 0.5s;
         border-radius: 0 0 20px 20px;
         flex-direction: column;
-        background-image: url("https://picsum.photos/seed/28/800");
+        background: linear-gradient(to bottom left, #ffccff 0%, #3399ff 83%);
         transform: translateY(-350px); 
-        
+        scroll-behavior: smooth;
 
 
     }
@@ -102,7 +102,6 @@
         background-color: rgb(247, 247, 247);
         border-radius: 50px;
         width: 100%;
-        
        
     }
 
@@ -398,4 +397,20 @@
     }
 
    
+}
+
+@media only screen and (max-width : 300px){
+    .title-name h1{
+        font-size: 36px;
+    
+    }
+    .title-name p{
+        font-size: 26px;
+        padding-top: 10px;
+    }
+
+    .navbar h1.header-title {
+        color: #FFB905;
+        font-size: 2rem;
+    }
 }

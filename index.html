@@ -21,7 +21,7 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
-                    <span class="bar"></span>
+                    <!-- <span class="bar"></span> -->
                 </div>
             </div>
             <ul class="menu-nav">
@@ -31,10 +31,13 @@
                 <li class="list-nav" onclick="scrollToAbout()">
                     <a>about</a>
                 </li>
-                <li class="list-nav" onclick="scrollToHome()">
-                    <a>article</a>
+                <li class="list-nav" onclick="scrollToActivity()">
+                    <a>Activity</a>
                 </li>
-                <li class="list-nav" onclick="scrollToHome()">
+                <li class="list-nav" onclick="scrollTomyBiodata()">
+                    <a>My Biodata</a>
+                </li>
+                <li class="list-nav" onclick="scrollToContact()">
                     <a>kontak</a>
                 </li>
             </ul>
@@ -44,6 +47,8 @@
             <h1 class="name-camp" >Moendoe</h1>
             <p class="name-title">Satu Sembilan Nol Dua</p>
         </div>
+
+        <button class="btnTop">🔺</button>
     </header>
 
     <!-- mobile menu -->
@@ -55,11 +60,14 @@
         <div class="mobile_menu_item"   onclick="scrollToAbout()">
            <a>About</a> 
         </div>
-        <div class="mobile_menu_item" onclick="scrollToContact()">
-            <a>Contact</a>   
+        <div class="mobile_menu_item"   onclick="scrollToActivity()">
+           <a>Activity</a> 
         </div>
-        <div class="mobile_menu_item" onclick="scrollToGallery()">
-           <a>Gallery</a>     
+        <div class="mobile_menu_item" onclick="scrollTomyBiodata()">
+           <a>My Biodata</a>        
+        </div>
+        <div class="mobile_menu_item" onclick="scrollToContact()">
+            <a>Contact</a>
         </div>
     </div>
     
@@ -120,7 +128,7 @@
 
                 </section>
 
-                <section class="activity">
+                <section class="activity" id="myActivity">
                     <h1 class="title-activity">activity </h1>
                     <div class="divider"></div>
                     <article class="article">
@@ -188,7 +196,7 @@
                 </section>
 
                 <!-- section organization -->
-                <section class="organization">
+                <section class="organization" id="myOrganization">
                     <div class="title-organization">organisasi</div>
                     <div class="divider"></div>
                     <div class="left-organization">
@@ -206,7 +214,7 @@
                 <!-- section organization -->
 
 
-                <section class="mybiodata">
+                <section class="mybiodata" id="myBiodata">
                     <h1 class="title-biodata">my biodata</h1>
                     <div class="divider"></div>
                     <aside class="aside-biodata">
@@ -250,7 +258,7 @@
               </section>
 
 
-              <section class="footer">
+              <section class="footer" id="myContact">
 
                 <div class="left-footer">
                     <h1 class="title-footer">moendoe</h1>
@@ -293,16 +301,17 @@
 
 
                 <div class="wa-footer">
-                    <a href="" class="button-wa">
+                    <!-- <a href="" class="button-wa">
                       whatsapp
-                    </a>
+                    </a> -->
     
                 </div>
-              
-              
-           
             </section>
 
+            
+            <Section class="boxBtnTop" id="btnTop" onclick="btnTop()">
+                
+            </Section>
     </main>
 
     <script src="./asset/style.js"></script>
