@@ -52,11 +52,13 @@ a {
     text-transform: capitalize;
     margin-left: auto;
     list-style-type: none;
+    display: flex;
+    gap: 50px;
     
 }
 
 .list-nav, a {  
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .list-nav a {  
@@ -186,6 +188,7 @@ section.about {
     text-align: center;
     color: white;
     font-weight: bold;
+    flex-wrap: wrap;
     
 }
 
@@ -329,34 +332,29 @@ section.about {
     height: 400px;
     color: white;
     margin: 50px 0;
+    padding: 20px;
+}
 
-
+.col-karang-taruna{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding: 20px; */
 }
 
 .left-title, .article-organization{
    /* padding: 90px 100px; */
-   margin: 50px 30px;
-   display: flex;
+   /* margin: 50px 30px; */
+   /* display: flex; */
 }
 
 .right-organization {
-    float: right;
-    /* width: 100%; */
-    /* background-color: #2727b9; */
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    /* position: static; */
-    margin: -450px 0 40px 20px;
-    /* background-color: #FFB905; */
-  
- 
- 
     
 }
 
 .img-right-organization {
     height: 400px;
+    width: 100%;
 
 }
 
@@ -466,27 +464,22 @@ iframe{
 
 /* section footer */
 .footer {
-    background-color: #063E54;
+   background-color: #063E54;
     width: 100%;
     border-radius: 40px 40px 0 0;
-    text-transform: capitalize; 
+    text-transform: capitalize;
     color: #F9F9FB;
-    /* position: relative; */
-    /* padding: 2% 0 10% 0; */
     display: flex;
     flex-direction: row;
-    position: absolute;
-    /* bottom: 0; */
-    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .left-footer {
     text-align: left;
-     /* padding: 0 5%; */
-     margin-top: -20px;
-     width: 40%;
-     /* background-color: #FFB905; */
-
+    margin-top: -20px;
 }
 
 .link-footer li{
@@ -503,18 +496,17 @@ iframe{
 
 .article-footer {
     line-height: 2;
+    max-width: 760px;
 }
 
 .footer-links {
-    width: 40%;
     display: flex;
+    flex-direction: row;
+    gap: 58px;
 }
 
 .right-footer {
-    width: 50%;
-  /* position: relative; */
-  /* margin-top: -16%; */
-
+  
 }
 
 .link-footer{
@@ -531,10 +523,6 @@ iframe{
 }
 
 .right-footer-end{
-    /* margin: -15% 0 0 25%; */
-    width: 50%;
-    /* background-color: #FFB905; */
-    
    
 }
 
@@ -545,9 +533,12 @@ iframe{
     flex-direction: column;
     display: flex;
     font: 20px;
+    display: flex;
+    gap: 10px;
 }
-.link-footer-end a{
+.link-footer-end li{
     font-size: 20px;
+    list-style-type: none;
 }
 
 

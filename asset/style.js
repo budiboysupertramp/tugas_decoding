@@ -12,8 +12,6 @@ const showMobileMenu = () => {
     if (show === true) {
         mobileMenu.style.transform ="translateY(0)";
         // mobileMenu.style.opacity = 1
-        
-      
         show = false
 
     } else {

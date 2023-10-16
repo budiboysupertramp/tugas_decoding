@@ -15,7 +15,7 @@
 }
 
 
-@media only screen and (max-width : 600px){
+@media only screen and (max-width : 960px){
    
 
     .header .navbar{
@@ -308,95 +308,51 @@
     .maps iframe{
        width: 90%;
        border-radius: 5%;
-     
-
     }
 
-    section.footer {
-  
-        display: flex;
-        /* margin-bottom: 50px; */
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
+    .footer {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    width: 100%;
    
     }
 
 
-    section.footer .left-footer  {
+    footer .left-footer  {
         width: 100%;
         text-align: center;
-       align-items: center;
+        align-items: center;
        
     }
 
-    section.footer .footer-links {
+   .footer .footer-links {
         width: 100%;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
 
      .article-footer{
         width: 100%;
         text-align: center;
-        
-        /* align-items: center;
-        justify-items: center;
-        position: absolute;
-        margin: 0 5%; */
-
-
-    }
-    .title-footer{
-        /* padding: 0 20px; */
-     
+    
     }
 
-
-    section.footer .right-footer {
-      /* display: flex;
-      float: left; */
-      width: 100%;
+    .col-karang-taruna{
+        flex-direction: column-reverse;
     }
 
-    .link-footer{
-        /* padding: 0 10%; */
+    .left-organization {
+        width: 100% !important;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
     }
-
- .title-link{
-    /* margin-top: 280%; */
-    /* text-align: center; */
-    /* color: black; */
- }
-
-  
-
-    section.footer .right-footer-end  {
-        /* display: flex; */
-        width: 100%;
-    }
-
-    .link-footer-end {
-        /* margin: -66% 0 0 20%;
-        padding: 15% 10%; */
-        
-    }
-    .title-link{
-     /* font-size: 1.5rem; */
-
-          
-    }
-
-    .list-link {
-     /* padding: 0 5%; */
-    }
-
-    section.footer .wa-footer  {
-        /* display: flex; */
-        width: 100%;
-    }
-
    
+
+
+
 }
 
 @media only screen and (max-width : 300px){
